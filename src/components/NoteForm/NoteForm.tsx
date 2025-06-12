@@ -108,6 +108,6 @@ export default function NoteForm({ onClose }: NoteFormProps) {
         </div>
         {isError && <ErrorMessageText />}
       </Form>
-    </Formik>
+    </Formik> 
   );
 }
